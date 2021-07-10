@@ -78,9 +78,9 @@ header {
     font-weight:bold;
 }
 
-.dropdown-item a::before {
+.dropdown-item-light a::before {
     content: ' ';
-    background: var(--bg-dropdown);
+    background: var(--gray0);
     border: 2px solid var(--blue); 
     border-radius: 50%;
     width: 2rem;
@@ -90,6 +90,17 @@ header {
     margin-right: 10px;
 }
 
+.dropdown-item-dark a::before {
+    content: ' ';
+    background: var(--gray6);
+    border: 2px solid var(--blue); 
+    border-radius: 50%;
+    width: 2rem;
+    height:2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
 /* Themes */
 
